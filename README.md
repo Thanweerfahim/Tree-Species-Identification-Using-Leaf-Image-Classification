@@ -10,8 +10,13 @@ This project is an image classification system developed to identify different t
 
 You can download the trained Implementation 1 model from the link below:
 
+🔹 Implementation 1 (Baseline Model)
+
 👉 (https://drive.google.com/file/d/19A-aPKsMkWgzhn_sWNg684GlsqMevrH8/view?usp=drive_link)
 
+🔹 Implementation 2 (Improved Model)
+
+👉 https://drive.google.com/file/d/1r6V7HMrBK1Wkb71Qu7vNcBt3TAu4o6y3/view?usp=drive_link
 ---
 
 ## 🧠 Model Details
