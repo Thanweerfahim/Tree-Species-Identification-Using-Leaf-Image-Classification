@@ -16,7 +16,8 @@ You can download the trained Implementation 1 model from the link below:
 
 🔹 Implementation 2 (Improved Model)
 
-👉 https://drive.google.com/file/d/1r6V7HMrBK1Wkb71Qu7vNcBt3TAu4o6y3/view?usp=drive_link
+👉 (https://drive.google.com/file/d/1r6V7HMrBK1Wkb71Qu7vNcBt3TAu4o6y3/view?usp=drive_link)
+
 ---
 
 ## 🧠 Model Details
