@@ -88,6 +88,14 @@ Each folder contains 12 leaf categories.
 
 ---
 
+🚀 Improvements in Implementation 2
+Data augmentation (rotation, zoom, flipping)
+Deeper CNN architecture
+Dropout regularization
+Early stopping to reduce overfitting
+
+---
+
 ## ⚠️ Notes
 
 * This is the **baseline model (Implementation 1)**.
