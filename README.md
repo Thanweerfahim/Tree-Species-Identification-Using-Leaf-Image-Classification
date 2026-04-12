@@ -1,22 +1,20 @@
-# 🌿 Leaf Classification Model (Implementation 1)
+# 🌿 Leaf Classification Model (CNN)
 
 ## 📌 Project Overview
 
-This project is an image classification system developed to identify different types of tree leaves using deep learning. The model is built using a Convolutional Neural Network (CNN) and trained on a dataset containing multiple leaf classes.
+This project is an image classification system developed to identify different types of tree leaves using deep learning. The model is built using Convolutional Neural Networks (CNN) and trained on a dataset containing 12 leaf classes.
 
 ---
 
 ## 📥 Model Download
 
-You can download the trained Implementation 1 model from the link below:
+### 🔹 Implementation 1 (Baseline Model)
 
-🔹 Implementation 1 (Baseline Model)
+👉 https://drive.google.com/file/d/19A-aPKsMkWgzhn_sWNg684GlsqMevrH8/view?usp=drive_link
 
-👉 (https://drive.google.com/file/d/19A-aPKsMkWgzhn_sWNg684GlsqMevrH8/view?usp=drive_link)
+### 🔹 Implementation 2 (Improved Model)
 
-🔹 Implementation 2 (Improved Model)
-
-👉 (https://drive.google.com/file/d/1r6V7HMrBK1Wkb71Qu7vNcBt3TAu4o6y3/view?usp=drive_link)
+👉 https://drive.google.com/file/d/1r6V7HMrBK1Wkb71Qu7vNcBt3TAu4o6y3/view?usp=drive_link
 
 ---
 
@@ -26,15 +24,6 @@ You can download the trained Implementation 1 model from the link below:
 * Number of Classes: 12
 * Image Size: 128 × 128
 * Framework: TensorFlow / Keras
-* File Format: `.keras`
-
----
-
-## 📊 Performance
-
-* Training Accuracy: ~91%
-* Validation Accuracy: ~82%
-* Test Accuracy: ~82%
 
 ---
 
@@ -42,21 +31,21 @@ You can download the trained Implementation 1 model from the link below:
 
 ### 1️⃣ Install Required Libraries
 
-```bash
+```bash id="z2f3x0"
 pip install tensorflow numpy matplotlib
 ```
 
 ### 2️⃣ Load the Model
 
-```python
+```python id="ksn5uv"
 from tensorflow.keras.models import load_model
 
-model = load_model("binary_cnn_model.keras")
+model = load_model("model_name.h5")   # Replace with downloaded model name
 ```
 
 ### 3️⃣ Prepare an Image
 
-```python
+```python id="j2qpj2"
 from tensorflow.keras.preprocessing import image
 import numpy as np
 
@@ -67,7 +56,7 @@ img_array = np.expand_dims(img_array, axis=0) / 255.0
 
 ### 4️⃣ Make Prediction
 
-```python
+```python id="xljk7k"
 prediction = model.predict(img_array)
 predicted_class = np.argmax(prediction)
 
@@ -78,7 +67,7 @@ print("Predicted Class:", predicted_class)
 
 ## 📁 Dataset Structure
 
-```
+```id="f0wxt9"
 leaves/
    train/
    test/
@@ -88,23 +77,29 @@ Each folder contains 12 leaf categories.
 
 ---
 
-🚀 Improvements in Implementation 2
-Data augmentation (rotation, zoom, flipping)
-Deeper CNN architecture
-Dropout regularization
-Early stopping to reduce overfitting
+## 🚀 Improvements in Implementation 2
+
+* Data augmentation (rotation, zoom, flipping)
+* Deeper CNN architecture
+* Dropout regularization
+* Early stopping to reduce overfitting
 
 ---
 
 ## ⚠️ Notes
 
-* This is the **baseline model (Implementation 1)**.
-* The model shows slight overfitting and can be improved using data augmentation and tuning (Implementation 2).
+* Implementation 1 is a baseline model.
+* Implementation 2 improves generalization and reduces overfitting.
 
 ---
 
-## 👨‍💻 Developed For
+## 👨‍💻 Project Type
 
 Mini Project – Image Classification (Leaf Recognition System)
 
 ---
+
+
+
+
+
